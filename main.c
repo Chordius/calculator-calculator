@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+int multiplication() {
+  return a * b
+}
+
+int division() {
+  return a / b
+}
+
 int main() {
     int choice;
     float a, b, result;
