@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 
-int addition(float a,float b) {
-  return a + b;
+float addition(float a,float b) {
+    return a + b;
 }
-int subtraction(float a,float b) {
-  return a - b;
-}
-
-int multiplication() {
-  return a * b
+float subtraction(float a,float b) {
+    return a - b;
 }
 
-int division() {
-  return a / b
+float multiplication(float a, float b) {
+    return a * b;
+}
+
+float division(float a, float b) {
+    return a / b;
 }
 
 int main() {
@@ -36,7 +36,6 @@ int main() {
                 printf("Input second number: ");
                 scanf("%f", &b);
                 result = addition(a, b);
-                printf("%f", result);
                 break;
             case 2:
                 printf("Input first number: ");
@@ -44,7 +43,6 @@ int main() {
                 printf("Input second number: ");
                 scanf("%f", &b);
                 result = subtraction(a, b);
-                printf("%f", result);
                 break;
             case 3:
                 printf("Input first number: ");
@@ -52,7 +50,6 @@ int main() {
                 printf("Input second number: ");
                 scanf("%f", &b);
                 result = multiplication(a, b);
-                printf("%f", result);
                 break;
             case 4:
                 printf("Input first number: ");
@@ -60,13 +57,13 @@ int main() {
                 printf("Input second number: ");
                 scanf("%f", &b);
                 result = division(a, b);
-                printf("%f", result);
                 break;
             case 5:
                 break;
             default:
                 printf("Not a valid choice. Try again!");
         }
+        printf("\nResult: %f", result);
         puts("");
     } while (choice != 5);
 
