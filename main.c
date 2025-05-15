@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+
+int addition(float a,float b) {
+  return a + b;
+}
+int subtraction(float a,float b) {
+  return a - b;
+}
+
 int multiplication() {
   return a * b
 }
@@ -65,4 +73,5 @@ int main() {
     printf("Thanks for using CALCULATOR CALCULATOR!");
 
     return 0;
+
 }
