@@ -19,6 +19,11 @@ int main() {
 				subtract=subtraction(a,b); 
 				printf("Hasil pengurangan adalah:%.2f  \n",subtract); 
 				break;
+				
+		case 2: 
+		add=addition(a,b); 
+		printf("Hasil penjumlahan adalah: %.2f   \n",add); 
+		break; 		
 	}
 
 
